@@ -21,6 +21,7 @@ input[type=submit]{
 input{
     display: flex;
     margin: auto;
+    margin-top: 1rem;
 }
 
 input[type=text]{
@@ -32,6 +33,11 @@ input[type=password]{
 }
 
 h1{
+    display: block;
+    text-align: center;
+}
+
+p{
     display: block;
     text-align: center;
 }
