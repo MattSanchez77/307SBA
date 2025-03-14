@@ -2,28 +2,58 @@
 <html lang="en">
 
 <head>
-    <style>table th tr {
-        border: 1px solid black;
-     } </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./styles/index.css">
- 
+ <style>
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #375a82;
+    }
+
+    li a{
+        display: block;
+        color: antiquewhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li{
+        float: left;
+    }
+
+
+
+
+ </style>
 </head>
 
 <body>
-    <nav>
+    
+
+   
+    <!-- <nav>
         <ul>
             <li><a class="active" href="./pages/signin.html">Sign In</a></li>
             <li><a href="./pages/signup.html">Sign Up</a></li>
 
         </ul>
-    </nav>
+    </nav> -->
+
+    <ul>
+        <li><a href="./pages/signup.html">Sign Up</a></li>
+        <li><a href="./pages/signin.html">Sign In</a></li>
+    </ul>
 
 
     <H1>Sports Statistics</H1>
     <table style="width: 100%;">
+        <thead>
         <tr>
             <th>Name</th>
             <th>Wins</th>
@@ -31,10 +61,20 @@
             <th>INTs</th>
             <th>comp%</th>
         </tr>
-        <tr>
+    </thead>
+    
             <td>Tom Brady</td>
             <td>251</td>
             <td>649</td>
+            <td>212</td>
+            <td>64.3</td>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
     </table>
 
